@@ -1,0 +1,54 @@
+body{
+	background-color: rgb(12, 12, 12);
+	color:  rgb(236, 5, 217);
+	font-family: 'Press Start 2P';
+	text-align: center;
+}
+
+h1, h2, p{
+	text-align:  center;
+}
+
+h1{
+	font-size:  2em;
+}
+
+h2{
+	font-size:  2.5em;
+}
+
+p{
+    font-size:  1em;
+}
+
+#Volver{
+    display: inline-block; /* Para que se coloquen bien */
+    padding: 10px 20px; /* agrega relleno interno */
+    font-size: 1.2em;
+    background-color: #ec1bdb; /* Color de fondo rosa */
+    color: white;
+    border: 2px solid #ec1bdb; /* Borde rosa */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Efecto de transición */
+  }
+  
+#tablero{
+    color: black;
+	margin: auto;
+	width: 750px;
+	max-width:  100%;
+	display:  flex;
+	flex-wrap:  wrap;
+}
+
+#tablero>button{
+	width: 250px;
+	height: 250px;  
+	max-width: 33.33%;
+	font-size:  10em;
+}
+
+#textoVictoria{
+	visibility: hidden;
+	color: Chartreuse;
+}

@@ -1,0 +1,33 @@
+body{
+	background-color: rgb(10, 10, 10);
+	color:  rgb(252, 252, 252);
+	font-family: 'Press Start 2P';
+    text-align: center;
+}
+
+h1{
+    font-size: 3em; /* Aumenta el tamaño de la fuente del título */
+    margin-bottom: 20px; /* Añade espacio debajo del título */
+    letter-spacing: 2px; /* Añade espacio entre las letras */
+    text-shadow: 4px 4px 4px rgba(247, 247, 247, 0.3); /* Agrega sombra al texto */  
+}
+
+img {
+    width: 100%; /* Ajusta el porcentaje según quieras reducir el tamaño */
+    max-width: 400px; /* Agrega un límite máximo al ancho de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    margin-bottom: 20px; /* Añade espacio debajo de la imagen */
+  }
+
+#boton{
+    display: inline-block; /* Para que se coloquen bien */
+    padding: 10px 20px; /* agrega relleno interno */
+    font-size: 1.2em;
+    background-color: #ec1bdb; /* Color de fondo rosa */
+    color: white;
+    border: 2px solid #ec1bdb; /* Borde rosa */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Efecto de transición */
+    margin: 10px;
+  }
+  
